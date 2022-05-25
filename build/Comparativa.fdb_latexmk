@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1653500344 "c:/Users/CarlosM/Desktop/Inteligencia de Negocios/II UNIDAD/Comparativa_Datawarehouse_vs_Datalakes/Comparativa.tex" "c:/Users/CarlosM/Desktop/Inteligencia de Negocios/II UNIDAD/Comparativa_Datawarehouse_vs_Datalakes/build/Comparativa.pdf" "Comparativa" 1653500347
+["pdflatex"] 1653500344 "c:/Users/CarlosM/Desktop/Inteligencia de Negocios/II UNIDAD/Comparativa_Datawarehouse_vs_Datalakes/Comparativa.tex" "c:/Users/CarlosM/Desktop/Inteligencia de Negocios/II UNIDAD/Comparativa_Datawarehouse_vs_Datalakes/build/Comparativa.pdf" "Comparativa" 1653500418
   "C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/palatino/pplb8r.tfm" 1136790254 2532 9ad73cf4dd2173a847f2a5f5608e0b9a ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/palatino/pplb9e.tfm" 1136790254 5972 0c64c4f5128ecc01ce53c9f2da598834 ""
@@ -114,9 +114,9 @@
   "imagenes/img5.png" 1653500113 28747 759df7540c462f03172a0b38e3fee534 ""
   "imagenes/logo.png" 1633926412 56115 9f802c9b63477013a62ae6a042414454 ""
   (generated)
-  "build/Comparativa.out"
-  "build/Comparativa.aux"
-  "build/Comparativa.log"
-  "build/Comparativa.pdf"
   "c:/Users/CarlosM/Desktop/Inteligencia de Negocios/II UNIDAD/Comparativa_Datawarehouse_vs_Datalakes/build/Comparativa.pdf"
+  "build/Comparativa.aux"
+  "build/Comparativa.pdf"
+  "build/Comparativa.log"
+  "build/Comparativa.out"
   "c:/Users/CarlosM/Desktop/Inteligencia de Negocios/II UNIDAD/Comparativa_Datawarehouse_vs_Datalakes/build/Comparativa.log"
