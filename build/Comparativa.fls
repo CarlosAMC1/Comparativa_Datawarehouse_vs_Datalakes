@@ -776,8 +776,6 @@ INPUT C:\Users\CarlosM\AppData\Roaming\MiKTeX\tex\latex\psnfss\ts1pplx.fd
 INPUT C:\Users\CarlosM\AppData\Roaming\MiKTeX\tex\latex\psnfss\ts1pplx.fd
 INPUT C:\Users\CarlosM\AppData\Roaming\MiKTeX\tex\latex\psnfss\ts1pplx.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\palatino\pplr9c.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\palatino\pplr9c.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\palatino\pplrc8r.tfm
 INPUT .\imagenes\img4.png
 INPUT .\imagenes\img4.png
 INPUT imagenes\img4.png
@@ -785,6 +783,8 @@ INPUT .\imagenes\img4.png
 INPUT .\imagenes\img4.png
 INPUT .\imagenes\img4.png
 INPUT .\imagenes\img4.png
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\palatino\pplr9c.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\palatino\pplrc8r.tfm
 INPUT .\imagenes\img5.png
 INPUT .\imagenes\img5.png
 INPUT imagenes\img5.png
