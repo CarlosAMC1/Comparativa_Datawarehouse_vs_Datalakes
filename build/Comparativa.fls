@@ -653,8 +653,18 @@ INPUT C:\Users\CarlosM\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitl
 INPUT C:\Users\CarlosM\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Users\CarlosM\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Users\CarlosM\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-OUTPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
+INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
+INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
+INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
+INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
+INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
+INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
+INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
+INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
 OUTPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.pdf
+INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
+INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
+OUTPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
 INPUT .\imagenes\logo.png
 INPUT .\imagenes\logo.png
 INPUT imagenes\logo.png

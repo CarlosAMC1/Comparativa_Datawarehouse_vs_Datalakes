@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.7)  25 MAY 2022 12:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.4.7)  25 MAY 2022 12:39
 entering extended mode
 **"c:/Users/CarlosM/Desktop/Inteligencia de Negocios/II UNIDAD/Comparativa_Datawarehouse_vs_Datalakes/Comparativa.tex"
 (c:/Users/CarlosM/Desktop/Inteligencia de Negocios/II UNIDAD/Comparativa_Datawarehouse_vs_Datalakes/Comparativa.tex
@@ -346,7 +346,26 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count301
 \l__pdf_internal_box=\box51
-) (c:/Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.aux)
+) (c:/Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.aux
+
+LaTeX Warning: Label `FRE2016' multiply defined.
+
+
+LaTeX Warning: Label `FRE2019' multiply defined.
+
+
+LaTeX Warning: Label `FRE2018' multiply defined.
+
+
+LaTeX Warning: Label `FRE2018' multiply defined.
+
+
+LaTeX Warning: Label `FRE2018' multiply defined.
+
+
+LaTeX Warning: Label `FRE2018' multiply defined.
+
+)
 \openout1 = `Comparativa.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
@@ -450,10 +469,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 54.
 LaTeX Info: Redefining \pageref on input line 54.
 LaTeX Info: Redefining \nameref on input line 54.
+ (c:/Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out) (c:/Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out)
 \@outlinefile=\write3
 \openout3 = `Comparativa.out'.
 
-<imagenes/logo.png, id=3, 149.05687pt x 185.19188pt>
+<imagenes/logo.png, id=71, 149.05687pt x 185.19188pt>
 File: imagenes/logo.png Graphic file (type png)
 <use imagenes/logo.png>
 Package pdftex.def Info: imagenes/logo.png  used on input line 61.
@@ -497,7 +517,7 @@ Package microtype Info: Character `029' is missing
 
 
 ]
-<imagenes/img1.PNG, id=22, 388.45125pt x 105.39375pt>
+<imagenes/img1.PNG, id=85, 388.45125pt x 105.39375pt>
 File: imagenes/img1.PNG Graphic file (type png)
 <use imagenes/img1.PNG>
 Package pdftex.def Info: imagenes/img1.PNG  used on input line 175.
@@ -515,12 +535,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.83502pt}.
 
 [3 <./imagenes/img1.PNG>]
-<imagenes/img2.png, id=38, 376.40625pt x 183.68625pt>
+<imagenes/img2.png, id=98, 376.40625pt x 183.68625pt>
 File: imagenes/img2.png Graphic file (type png)
 <use imagenes/img2.png>
 Package pdftex.def Info: imagenes/img2.png  used on input line 245.
 (pdftex.def)             Requested size: 170.71652pt x 83.31108pt.
-<imagenes/img3.png, id=39, 311.66437pt x 188.20313pt>
+<imagenes/img3.png, id=99, 311.66437pt x 188.20313pt>
 File: imagenes/img3.png Graphic file (type png)
 <use imagenes/img3.png>
 Package pdftex.def Info: imagenes/img3.png  used on input line 259.
@@ -557,13 +577,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.83502pt}.
 
 [4 <./imagenes/img2.png> <./imagenes/img3.png>]
-<imagenes/img4.png, id=50, 383.93437pt x 191.9672pt>
+<imagenes/img4.png, id=109, 383.93437pt x 191.9672pt>
 File: imagenes/img4.png Graphic file (type png)
 <use imagenes/img4.png>
-Package pdftex.def Info: imagenes/img4.png  used on input line 338.
+Package pdftex.def Info: imagenes/img4.png  used on input line 339.
 (pdftex.def)             Requested size: 199.16928pt x 99.58624pt.
 
-Underfull \hbox (badness 1215) in paragraph at lines 337--339
+Underfull \hbox (badness 1215) in paragraph at lines 337--340
 \T1/pplx/m/n/10 (+20) pas del dis-eño de un al-macén de datos.
  []
 
@@ -575,28 +595,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.83502pt}.
 
 [5 <./imagenes/img4.png>]
-c:/Users/CarlosM/Desktop/Inteligencia de Negocios/II UNIDAD/Comparativa_Datawarehouse_vs_Datalakes/Comparativa.tex:351: Misplaced alignment tab character &.
-l.351 ...datos no son necesarios. (Hai, Geisler, &
-                                                   Quix, 2016).
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-<imagenes/img5.png, id=62, 303.38344pt x 158.09062pt>
+<imagenes/img5.png, id=118, 303.38344pt x 158.09062pt>
 File: imagenes/img5.png Graphic file (type png)
 <use imagenes/img5.png>
-Package pdftex.def Info: imagenes/img5.png  used on input line 371.
+Package pdftex.def Info: imagenes/img5.png  used on input line 372.
 (pdftex.def)             Requested size: 199.16928pt x 103.7877pt.
 
-Underfull \hbox (badness 2809) in paragraph at lines 368--374
+Underfull \hbox (badness 2809) in paragraph at lines 369--375
 \T1/pplx/m/n/10 (+20) una solu-ción, pero afrontar el con-tinuo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--374
+Underfull \hbox (badness 10000) in paragraph at lines 369--375
 []
  []
 
@@ -608,162 +618,162 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-10.83502pt}.
 
 [6 <./imagenes/img5.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 401--402
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
 \T1/pplx/m/n/10 (+20) er-data.es. https://blog.powerdata.es/el-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--402
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
 \T1/pplx/m/n/10 (+20) valor-de-la-gestion-de-datos/data-lake-vs-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--402
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
 \T1/pplx/m/n/10 (+20) data-warehouse.-veamos-sus-principales-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--404
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
 []\T1/pplx/m/n/10 (+20) Gorini, M. (2022). ¾Cuál es la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--404
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
 \T1/pplx/m/n/10 (+20) difer-en-cia en-tre un data lake y
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--404
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
 \T1/pplx/m/n/10 (+20) un data ware-house? Bis-mart.com.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--404
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
 \T1/pplx/m/n/10 (+20) http://blog.bismart.com/diferencia-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--406
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
 []\T1/pplx/m/n/10 (+20) Gigliotti, M. (2019). Data Lake y
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 405--406
+Underfull \hbox (badness 1248) in paragraph at lines 406--407
 \T1/pplx/m/n/10 (+20) Data Ware-house: ¾Qué son y en qué
  []
 
 
-Underfull \hbox (badness 7851) in paragraph at lines 405--406
+Underfull \hbox (badness 7851) in paragraph at lines 406--407
 \T1/pplx/m/n/10 (+20) se difer-en-cian? Techedge-group.com.
  []
 
 
-Overfull \hbox (21.43953pt too wide) in paragraph at lines 405--406
+Overfull \hbox (21.43953pt too wide) in paragraph at lines 406--407
 \T1/pplx/m/n/10 (-20) https://www.techedgegroup.com/es/blog/data-
  []
 
 
-Underfull \hbox (badness 1931) in paragraph at lines 407--408
+Underfull \hbox (badness 1931) in paragraph at lines 408--409
 []\T1/pplx/m/n/10 (+20) Data Lake vs Data Ware-house: Key
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--408
+Underfull \hbox (badness 10000) in paragraph at lines 408--409
 \T1/pplx/m/n/10 (+20) https://www.talend.com/resources/data-
  []
 
 
-Underfull \hbox (badness 4713) in paragraph at lines 413--414
+Underfull \hbox (badness 4713) in paragraph at lines 414--415
 []\T1/pplx/m/n/10 (+20) Prakash, S. S. (2020, April). Evo-lu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--414
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 \T1/pplx/m/n/10 (+20) tion of Data Ware-houses to Data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--414
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 \T1/pplx/m/n/10 (+20) Lakes for En-ter-prise Busi-ness In-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--414
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
 \T1/pplx/m/n/10 (+20) tel-li-gence. Re-search-Gate; un-known.
  []
 
 
-Overfull \hbox (564.15572pt too wide) in paragraph at lines 413--414
+Overfull \hbox (564.15572pt too wide) in paragraph at lines 414--415
 \T1/pplx/m/n/10 (-20) https://www.researchgate.net/publication/343219651EvolutionofDataWarehousestoDataLakesforEnterpriseBusinessIntelligence/link/5f1d52ad92851cd5fa48958a/download 
  []
 
 
-Overfull \hbox (88.73827pt too wide) in paragraph at lines 416--417
+Overfull \hbox (88.73827pt too wide) in paragraph at lines 417--418
 \T1/pplx/m/n/10 (-20) https://d1.awsstatic.com/events/Summits/AMER2019/Mexico-
  []
 
 
-Overfull \hbox (144.71631pt too wide) in paragraph at lines 416--417
+Overfull \hbox (144.71631pt too wide) in paragraph at lines 417--418
 \T1/pplx/m/n/10 (-20) City/BuildingandgoverningmoderndatalakesanddatawarehousesADB201.pdf 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 419--420
+Underfull \hbox (badness 10000) in paragraph at lines 420--421
 \T1/pplx/m/n/10 (+20) P. Y. (2003). Fun-da-men-tos de Data
  []
 
 
-Underfull \hbox (badness 5924) in paragraph at lines 419--420
+Underfull \hbox (badness 5924) in paragraph at lines 420--421
 \T1/pplx/m/n/10 (+20) Ware-house. Re-portes Téc-ni-cos En In-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 419--420
+Underfull \hbox (badness 10000) in paragraph at lines 420--421
 \T1/pplx/m/n/10 (+20) ge-niería Del Soft-ware, 5(1), 1926.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 419--420
+Underfull \hbox (badness 10000) in paragraph at lines 420--421
 \T1/pplx/m/n/10 (+20) http://artemisa.unicauca.edu.co/ ecal-
  []
 
 
-Overfull \hbox (24.26175pt too wide) in paragraph at lines 419--420
+Overfull \hbox (24.26175pt too wide) in paragraph at lines 420--421
 \T1/pplx/m/n/10 (-20) don/docs/bd/fundamentosdedatawarehouse.pdf 
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 422--423
+Underfull \hbox (badness 1354) in paragraph at lines 423--424
 []\T1/pplx/m/n/10 (+20) Agudelo, J. (2020) Data Lakes: Apli-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 422--423
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
 \T1/pplx/m/n/10 (+20) ca-ciones, Her-ramien-tas y Ar-qui-tec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 422--423
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
 \T1/pplx/m/n/10 (+20) turas. Mono-grafía pre-sen-tada como
  []
 
 
-Underfull \hbox (badness 3386) in paragraph at lines 422--423
+Underfull \hbox (badness 3386) in paragraph at lines 423--424
 \T1/pplx/m/n/10 (+20) req-ui-sito para op-tar al Tí-tulo de In-
  []
 
 
-Underfull \hbox (badness 8056) in paragraph at lines 422--423
+Underfull \hbox (badness 8056) in paragraph at lines 423--424
 \T1/pplx/m/n/10 (+20) ge-niero de Sis-temas y Com-putación
  []
 
 
-Overfull \hbox (111.26884pt too wide) in paragraph at lines 422--423
+Overfull \hbox (111.26884pt too wide) in paragraph at lines 423--424
 \T1/pplx/m/n/10 (-20) https://repositorio.utp.edu.co/server/api/core/bitstreams/5f56e572-
  []
 
 
-Underfull \hbox (badness 3826) in paragraph at lines 425--426
+Underfull \hbox (badness 3826) in paragraph at lines 426--427
 \T1/pplx/m/n/10 (+20) 7ff. ffhal-03114365f https://hal.archives-
  []
 
@@ -777,52 +787,46 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [7pdfTeX warning (ext4): destination with the same identifier (name{cite.FRE2016}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.434 \end{document}
+l.435 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier (name{cite.FRE2019}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.434 \end{document}
+l.435 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier (name{cite.FRE2018}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.434 \end{document}
+l.435 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier (name{cite.FRE2018}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.434 \end{document}
+l.435 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier (name{cite.FRE2018}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.434 \end{document}
+l.435 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier (name{cite.FRE2018}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.434 \end{document}
+l.435 \end{document}
                     ] (c:/Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `Comparativa.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Comparativa.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  E5C759708B5A3A2549BCE77C1DD8666B;2753.
+Package rerunfilecheck Info: File `Comparativa.out' has not changed.
+(rerunfilecheck)             Checksum: E5C759708B5A3A2549BCE77C1DD8666B;2753.
  ) 
 Here is how much of TeX's memory you used:
- 13925 strings out of 479334
- 214942 string characters out of 2866955
- 567572 words of memory out of 3000000
- 30855 multiletter control sequences out of 15000+200000
- 449663 words of font info for 259 fonts, out of 3000000 for 9000
+ 13943 strings out of 479334
+ 215675 string characters out of 2866955
+ 567881 words of memory out of 3000000
+ 30873 multiletter control sequences out of 15000+200000
+ 449440 words of font info for 256 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,13n,74p,1167b,460s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,13n,74p,1137b,460s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/CarlosM/AppData/Roaming/MiKTeX/fonts/type1/public/fpl/fplrc8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on "c:/Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.pdf" (7 pages, 379334 bytes).
+Output written on "c:/Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.pdf" (7 pages, 385154 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
+ 161 PDF objects out of 1000 (max. 8388607)
  42 named destinations out of 1000 (max. 500000)
- 60447 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 60583 words of extra memory for PDF output out of 61914 (max. 10000000)
 

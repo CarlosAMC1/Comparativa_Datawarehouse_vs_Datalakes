@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1653500233 "c:/Users/CarlosM/Desktop/Inteligencia de Negocios/II UNIDAD/Comparativa_Datawarehouse_vs_Datalakes/Comparativa.tex" "c:/Users/CarlosM/Desktop/Inteligencia de Negocios/II UNIDAD/Comparativa_Datawarehouse_vs_Datalakes/build/Comparativa.pdf" "Comparativa" 1653500233
+["pdflatex"] 1653500344 "c:/Users/CarlosM/Desktop/Inteligencia de Negocios/II UNIDAD/Comparativa_Datawarehouse_vs_Datalakes/Comparativa.tex" "c:/Users/CarlosM/Desktop/Inteligencia de Negocios/II UNIDAD/Comparativa_Datawarehouse_vs_Datalakes/build/Comparativa.pdf" "Comparativa" 1653500347
   "C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/palatino/pplb8r.tfm" 1136790254 2532 9ad73cf4dd2173a847f2a5f5608e0b9a ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/palatino/pplb9e.tfm" 1136790254 5972 0c64c4f5128ecc01ce53c9f2da598834 ""
@@ -102,11 +102,11 @@
   "C:/Users/CarlosM/AppData/Roaming/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1575571282 9715 b051d5b493d9fe5f4bc251462d039e5f ""
   "C:/Users/CarlosM/AppData/Roaming/MiKTeX/tex/latex/titlesec/titlesec.sty" 1625497667 48833 3b7b4cfab1a3d15596bfd3772a77ab65 ""
   "C:/Users/CarlosM/AppData/Roaming/MiKTeX/tex/latex/titling/titling.sty" 1252048308 7358 95ac619994bd30d405a74f3eca431c84 ""
-  "Comparativa.tex" 1653500229 24888 16543199439e0a1bf13248470af56788 ""
-  "build/Comparativa.aux" 0 -1 0 "pdflatex"
-  "build/Comparativa.out" 0 -1 0 "pdflatex"
-  "c:/Users/CarlosM/Desktop/Inteligencia de Negocios/II UNIDAD/Comparativa_Datawarehouse_vs_Datalakes/Comparativa.tex" 1653500229 24888 16543199439e0a1bf13248470af56788 ""
-  "c:/Users/CarlosM/Desktop/Inteligencia de Negocios/II UNIDAD/Comparativa_Datawarehouse_vs_Datalakes/build/Comparativa.aux" 1653500233 9 a94a2480d3289e625eea47cd1b285758 ""
+  "Comparativa.tex" 1653500343 24825 da0ea9c23c32c4ddaa87de10073013e0 ""
+  "build/Comparativa.aux" 1653500346 4397 d3c88ae0b9cb6d9af7cf98dab4f00f8d "pdflatex"
+  "build/Comparativa.out" 1653500346 2753 e5c759708b5a3a2549bce77c1dd8666b "pdflatex"
+  "c:/Users/CarlosM/Desktop/Inteligencia de Negocios/II UNIDAD/Comparativa_Datawarehouse_vs_Datalakes/Comparativa.tex" 1653500343 24825 da0ea9c23c32c4ddaa87de10073013e0 ""
+  "c:/Users/CarlosM/Desktop/Inteligencia de Negocios/II UNIDAD/Comparativa_Datawarehouse_vs_Datalakes/build/Comparativa.aux" 1653500346 4397 d3c88ae0b9cb6d9af7cf98dab4f00f8d ""
   "imagenes/img1.PNG" 1653497614 42722 e3fc167c3924258662021e761498510f ""
   "imagenes/img2.png" 1653498188 37128 b70b9aa528fb0d95d238f27c4161aecb ""
   "imagenes/img3.png" 1653498253 62833 d1f3bd150a6409d0a52a46fe003f2529 ""
@@ -114,9 +114,9 @@
   "imagenes/img5.png" 1653500113 28747 759df7540c462f03172a0b38e3fee534 ""
   "imagenes/logo.png" 1633926412 56115 9f802c9b63477013a62ae6a042414454 ""
   (generated)
-  "build/Comparativa.aux"
-  "c:/Users/CarlosM/Desktop/Inteligencia de Negocios/II UNIDAD/Comparativa_Datawarehouse_vs_Datalakes/build/Comparativa.log"
-  "build/Comparativa.pdf"
   "build/Comparativa.out"
+  "build/Comparativa.aux"
   "build/Comparativa.log"
+  "build/Comparativa.pdf"
   "c:/Users/CarlosM/Desktop/Inteligencia de Negocios/II UNIDAD/Comparativa_Datawarehouse_vs_Datalakes/build/Comparativa.pdf"
+  "c:/Users/CarlosM/Desktop/Inteligencia de Negocios/II UNIDAD/Comparativa_Datawarehouse_vs_Datalakes/build/Comparativa.log"
