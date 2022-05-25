@@ -287,69 +287,107 @@ análisis. Sus subdivisiones son:
     \item Verificación de la calidad de los datos (informes de calidad). 
     
 \end{itemize}
+
+\paragraph{- Preparación de los datos:}
+Es analizar los datos realmente importantes 
+en el proceso de selección, depuración y transformación. Sus 
+subdivisiones son: 
+\begin{itemize}
+    \item Selección de los datos (motivos para incluirlos o excluirlos). 
+    \item Depuración de los datos (reporte de depuración).
+    \item Estructuración de los datos (generación de atributos y registros)
+    \item Integración de los datos (agrupar los datos).
+    \item Formateo de datos (informe de la calidad de datos formateados).
+\end{itemize}
+
+\paragraph{- Modelado:}
+Es la aplicación de técnicas de modelado o de Data 
+Warehouse. Sus subdivisiones son: 
+
+\begin{itemize}
+    \item Selección de la técnica de modelado (técnica y sus supuestos). 
+    \item Generar el plan de pruebas (plan de pruebas). 
+    \item Construcción del modelo (parámetros escogidos, modelos, descripción de los modelos). 
+    \item Evaluación del modelo (evaluar el modelo, revisión de los parámetro elegidos). 
+\end{itemize}
+
+\paragraph{- Evaluación:}
+Esta fase es muy importante y decisiva, pues corresponde a 
+la evaluación de la escogencia de los modelos anteriores y la toma de 
+decisión respecto a si realmente son útiles en el proceso. Sus 
+subdivisiones son: 
+\begin{itemize}
+    \item Evaluar resultados (valoración de los resultados respecto al éxito del negocio, modelos aprobados).
+    \item Proceso de revisión (revisar el proceso).
+    \item Determinación de los pasos siguientes (listado de posibles acciones, técnica modelada).  
+\end{itemize}
+
+\paragraph{- Despliegue o divulgación:}
+Es la fase de implementación o de 
+divulgación de los modelos anteriormente escogidos y evaluados. Sus 
+subdivisiones son: 
+
+\begin{itemize}
+    \item Plan de divulgación o implementación (plan de implementación).
+    \item Plan de monitoreo y mantenimiento (plan de monitoreo y mantenimiento).
+    \item Presentación del informe fina (informe final, presentación final).
+    \item Revisión del proyecto (documentación de la experiencia). 
+\end{itemize}
+\subsubsection{DWEP (Data Warehouse Engineering Process)}
+Está basada en el proceso unificado (en inglés: Unified Process UP) estándar aceptado en el ámbito científico e industrial para el desarrollo de software; entre sus principales características se encuentra que es iterativo e incremental, se basa en cuatro fases de desarrollo y siete flujos de trabajo, en la Figura 3 se presentan gráficamente la relación existente entre los flujos de trabajo y las fases tanto del UP como de DWEP, está basado en componentes, utiliza el UML (Unified Modeling Language - Lenguaje Unificado de Modelado) como lenguaje para modelado gráfico es orientada a objetos, independiente de cualquier implementación específica, ya sea relacional o multidimensional y permite la representación de todas las etapas del diseño de un almacén de datos. 
+\includegraphics[width=7cm]{imagenes/img4.png}
+
+\subsubsection{SEMMA}
+Se define como el proceso de selección, exploración y modelado de grandes cantidades de datos para descubrir patrones de negocio desconocidos. Su nombre es el acrónimo correspondiente a las cinco fases básicas del proceso (muestro (sample), explotación (explore), modificación (modify), modelado (model), valoración (assess)) (28).  
+\subsubsection{P3TQ (Product, Place, Price, Time, Quantity) }
+Está compuesta por dos modelos, el Modelo de Negocio y el Modelo de Explotación de Información. El Modelo de Negocio proporciona una guía de pasos para identificar un problema de negocio o la oportunidad del mismo. El Modelo de Explotación de Información proporciona una guía de pasos para la ejecución de los modelos de explotación de información de acuerdo al modelo identificado en Modelo del Negocio.  
+\subsubsection{KM-IRIS}
+Fue elaborado por el grupo de Integración y Re-Ingeniería de Sistemas (IRIS) de la Universidad Jaume. Se crea con el objetivo de dirigir el proyecto de desarrollo de un sistema de gestión del conocimiento, consta de cinco fases: identificar, extraer, procesar, almacenar y compartir. Esta metodología pretende cubrir el ciclo completo en el desarrollo de un sistema de gestión del conocimiento. Es una metodología poco difundida y con escasa documentación (16, 27). En la tabla 1 se muestra una breve descripción de sus fases.
+\subsubsection{Rapid Warehousing Methodology}
+Es una metodología iterativa que está basada en el desarrollo incremental de un almacén de datos dividido en cinco fases. Esta metodología no incluye lo relativo a técnicas de análisis de la información, por lo que con su aplicación solo se obtendría el almacén de datos y no los multianálisis de los datos para apoyar la toma de decisión. 
+
+
 \subsection{DATA LAKE}
-\subsubsection{Concepto}
-El Data Lake es un repositorio compartido que le permite adquirir y almacenar grandes cantidades de datos procedentes de sistemas heterogéneos en formato nativo, es decir, datos en bruto estructurados, semiestructurados y no estructurados. La adquisición puede provenir de sistemas heredados, como CRM y ERP, o de fuentes externas, como feeds, Internet de las Cosas y datos de redes sociales.
-El propósito de un Data Lake es, por lo tanto, proporcionar una visión no necesariamente refinada de los datos para apoyar las actividades de Data Discovery, lo que lo convierte en un sistema adecuado para usuarios expertos.
+Es un repositorio de almacenamiento que contiene una gran cantidad de datos en bruto y que se mantienen allí hasta que sea necesario. Se trata de guardar los datos con el objeto de que puedan ser procesados y utilizados en el momento en que sea necesario. Cada elemento del Data Lake recibe un identificador y etiquetas de metadatos extendidas, con el fin de que 20 pueda ser identificado y recuperado fácilmente. (Fang, 2015) Así, en el Data Lake pueden tener cabida muchos tipos de datos distintos, de diversas fuentes y en diferentes formatos. Esto exige, por supuesto, que la capacidad de almacenamiento sea enorme. En resumen, un sistema Data Lake permite retener todos los datos in procesamiento, dar soporte para todo tipo de perfiles de usuarios, tanto para modelos empresariales como científicos, de esta manera el acceso a la información original es más directa y reduce los pasos necesarios para su procesamiento, con una estructura de datos no definida hasta que los datos no son necesarios. (Hai, Geisler, & Quix, 2016). 
 
-\subsubsection{Atributos clave de un data lake}
-\begin{itemize}
-    \item  Cómputo y almacenamiento desacoplado.
-    \item  Ingesta y transformación rápida.
-    \item   Seguridad en ambientes multitenant
-    \item   Query in place
-    \item  Schema on read
-\end{itemize}
-Los data lakes extienden el enfoque tradicional al tener diversos motores de análisis, almacenamiento a bajo costo, escalas de TBs -EBs
-
-\subsubsection{Capas comunes de data lake(tecnologías)}
-\begin{itemize}
-    \item  Data Ingestion: capa temporal de carga en la que los datos pasan checks básicos antes de ser almacenados en la capa de raw data. Si bien no es necesaria, se puede implementar para llevar a cabo
-    \item  controles básicos de calidad, como posibles filtros según el origen de los datos, descartando fuentes desconocidas
-    \item  procesos de encriptación de los datos en caso de requerirse por motivos de seguridad
-    \item  registros sencillos de metadata y trazabilidad mediante tags, almacenando el origen de los datos, fecha y hora de carga, el formato y otras características técnicas, su privacidad y nivel de seguridad, algoritmo de encriptación, etc.
-    \item Data Storage (Raw Data): capa sin esquema establecido donde todos los datos, estructurados o no estructurados, son almacenados sin sufrir adaptaciones. Es una capa en la que se precisa de analistas expertos en data discovery mediante herramientas big data (Hive, Spark, Map Reduce…).
-    \item  Data Processing (Zona de Confianza): Una vez que los analistas de datos han realizado data discovery en el raw data, se puede ver la necesidad de procesar y adaptar determinados sets de datos para alojarlos en una capa de uso recurrente. En esta capa pueden tener lugar procesos avanzados de data quality, integridad y otras adaptaciones para disponer de una capa de confianza de exploración de datos a la que tengan acceso otros usuarios.
-    \item   Data Access (Zona de Consumo): esta es una capa más avanzada donde, finalmente, los datos se ponen a disposición de analistas de negocio. Estos analistas podrá generar informes y análisis para responder a preguntas de negocio y afianzar la toma de decisiones. 
-\end{itemize}
-\subsubsection{Arquitectura de Data lake}
-\paragraph{Arquitectura de zona}
-\begin{itemize}
-    \item De estanque: Inmon diseña un lago de datos como un conjunto de estanques de datos [23]. un dato estanque se puede ver como una subdivisión de un lago de datos que trata con datos de un específico escribe. De acuerdo con las especificaciones de Dixon, cada estanque de datos está asociado con un sistema de almacenamiento especializado, algún procesamiento y acondicionamiento de datos específicos (es decir, transformación/preparación de datos) y un servicio de análisis relevante. Más precisamente, Inmon identifica cinco estanques de datos.
-    \item  De zona : Arquitecturas de zona Las denominadas arquitecturas de zona asignan datos a una zona según a su grado de refinamiento.
-\end{itemize}
-\paragraph{Arquitecturas funcionales y de madurez}
-Para superar las contradicciones de la categorización estanque/zona, se propone una forma alternativa de agrupar arquitecturas de lagos de datos con respecto al tipo de criterios Se utiliza para definir componentes. Como resultado, distinguimos arquitecturas funcionales, arquitecturas basadas en la madurez de datos y arquitecturas híbridas
-
-\subsubsection{Ventajas de Data lake}
-\begin{itemize}
-    \item El Data Lake permite centralizar todos los datos en un mismo lugar, vengan de la fuente que vengan. Una vez incluidas en su silo correspondiente de información, pueden ser procesadas a través de herramientas de Big Data. Muchas veces, en esa disparidad de información, habrá datos que requieran un tratamiento especial en cuanto a seguridad. Gracias al Data Lake, este aspecto se puede solventar.
-    \item  Puede que la fuente original del dato esté obsoleta o se haya desactivado, sin embargo, su contenido puede que siga siendo valioso para el análisis. A través del Data Lake, puedes acceder a dicha información.
-    \item  Todo dato que llegue al Data Lake puede ser normalizado y enriquecido.
-    \item  Los datos se preparan en función de la necesidad del momento. Esto permite reducir considerablemente los costes y los tiempos. En el Data Warehouse, por ejemplo, es necesaria dicha preparación.
-    \item  Se puede acceder a la información y enriquecerla desde cualquier punto del planeta, por cualquier usuario autorizado por el Data Lake. Esto ayuda a la organización a recopilar más fácilmente los datos necesarios para la toma de decisiones.
-    \item  Un Data Lake pone la información en manos de un mayor número de personas dentro de cualquier organización, aprovechándose mejor la empresa de ese conocimiento que adquieren dichos individuos.
-\end{itemize}
-\subsection{Comparativa Data lake y Data Warehouse}
+\paragraph{Enfoque ágil:}
+En un enfoque ágil es requerido para el diseño e implementación de data lake (Data Kitchen, 
+2020) según data Kitchen, dado que se afrontan las siguientes dificultades: 
 
 \begin{itemize}
-    \item  Los data lake y los data warehouse se utilizan de forma generalizada para el almacenaje de big data, pero, aunque ambos son almacenes de datos, estos no son términos intercambiables. Un data lake o "lago de datos" es un gran conjunto de datos en bruto, que todavía no tiene una finalidad definida. En cambio, un data warehouse o "almacén de datos" es un depósito de datos que ya están estructurados y filtrados y han sido procesados para un propósito concreto.
-    \item   Datalake conserva todos los datos, a diferencia del almacén de datos, donde se dedica una parte importante de tiempo a decidir qué datos incluir y no incluir en el almacén.
-    \item Data Lake admite todos los tipos de datos, independientemente de su tipo, formato o procedencia y sin necesidad de normalizar su estructura. La información se mantiene en su forma original y solo se transforma cuando se va a consumir.
-    \item   Data Lake puede nutrir a todos los usuarios de la organización, incluyendo a esos perfiles técnicos con exigencias de análisis más avanzadas, que son quienes recurren a capacidades como análisis estadístico y modelado predictivo.
-    \item   A diferencia del Data Warehouse, el Data Lake se adapta fácilmente a los cambios. El diseño del almacén es un proceso complejo y, la actualidad de loso negocios, en ocasiones no puede esperar tanto tiempo. Para esas circunstancias, asegura la adaptabilidad necesaria para entregar respuestas más rápidas.
+    \item Demasiado trabajo
+    \item Errores de datos
+    \item Mala data arruina buenos reportes
+    \item Cambios constantes de necesidades de negocio 
+    \item Multitud de herramientas
+    \item Mantenimiento de tuberia de datos nunca termina
+    \item Fatiga de procesamiento manual
+    \item Tareas desalentadoras en migración a nube
+\end{itemize}
+
+En la ejecución de proyectos de analítica de datos, se consideran tanto el ciclo de vida de los 
+datos como el ciclo de vida de valor de negocio, partiendo de implementar una solución, pero 
+afrontar el continuo cambio, como se observa en la siguiente tabla:
+\includegraphics[width=7cm]{imagenes/img5.png}
+Lo cual requiere que enfoques ágiles sean tenidos en cuenta, en cuanto a metodología, 
+procesos y herramientas, considerando: 
+
+\begin{itemize}
+    \item Capacidad de realizar despliegues hacia ambientes de producción de manera rápida y segura. 
+    \item Responder rápidamente a las solicitudes de integración de datos.
+    \item Responder a los cambios de lógica de negocio.
+    \item Tomar acciones correctivas sobre errores en datos oportunamente.
+    \item Automatización de procesamiento y calidad.
+    \item No quedar bloqueado en un enfoque centrado en herramientas o por restricciones de operación de herramientas.  
 \end{itemize}
 
 
 \section{Conclusiones}
-
-Es necesario revisar la categorías de un lago de datos y un almacén de datos, para analizar cual adapta mejor al caso de uso en el que se desea trabajar.
-Cuando se construyen tuberías de datos, es necesario implementar una combinación de ambas soluciones de almacenamiento.
-
+Los lineamientos de diseño son la parte más importante de un proceso para el desarrollo de un DW, con esto bien especificado, el DW difícilmente falle en su funcionamiento y usando el esquema constelación, se tendrá una bonificación a nivel organizativo debido a su cualidad de ser específico. 
 
 \section{Recomendaciones}
- El lago de datos integran diferentes tipos de datos para generar preguntas completamente nuevas, ya que es probable que estos usuarios no usen almacenes de datos porque pueden necesitar ir más allá de sus capacidades, mientras que en el almacén de datos la mayoría de los usuarios de una organización están operativos. Este tipo de usuarios solo se preocupa por los informes y las métricas clave de rendimiento.
-
+Se recomienda tener en cuenta que no todas las herramientas y metodologías no fueron estudiadas y comparadas, existen más de estas para ser analizadas y algunas pueden cumplir mejor para el desarrollo de un DW que las mencionadas en este documento.  
+Una vez se haya desarrollado un DW usando estas comparaciones, ya se podrán aplicar los procesos de BI que normalmente se aplican. 
  
  
 

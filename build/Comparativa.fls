@@ -653,18 +653,8 @@ INPUT C:\Users\CarlosM\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitl
 INPUT C:\Users\CarlosM\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Users\CarlosM\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Users\CarlosM\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
-INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
-INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
-INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
-INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
-INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
-INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
-INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
-OUTPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.pdf
-INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
-INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
 OUTPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
+OUTPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.pdf
 INPUT .\imagenes\logo.png
 INPUT .\imagenes\logo.png
 INPUT imagenes\logo.png
@@ -778,6 +768,20 @@ INPUT C:\Users\CarlosM\AppData\Roaming\MiKTeX\tex\latex\psnfss\ts1pplx.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\palatino\pplr9c.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\palatino\pplr9c.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\palatino\pplrc8r.tfm
+INPUT .\imagenes\img4.png
+INPUT .\imagenes\img4.png
+INPUT imagenes\img4.png
+INPUT .\imagenes\img4.png
+INPUT .\imagenes\img4.png
+INPUT .\imagenes\img4.png
+INPUT .\imagenes\img4.png
+INPUT .\imagenes\img5.png
+INPUT .\imagenes\img5.png
+INPUT imagenes\img5.png
+INPUT .\imagenes\img5.png
+INPUT .\imagenes\img5.png
+INPUT .\imagenes\img5.png
+INPUT .\imagenes\img5.png
 INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.aux
 INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
 INPUT c:\Users\CarlosM\Desktop\Inteligencia de Negocios\II UNIDAD\Comparativa_Datawarehouse_vs_Datalakes\build\Comparativa.out
